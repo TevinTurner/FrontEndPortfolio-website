@@ -1,0 +1,445 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #000000;
+}
+
+/**===========================================**/
+/**Navigation Section**/
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -150px;   
+    align-items: center;
+}
+
+
+.nav-logo-img {
+    width: 400px;
+    margin-left: -130px;
+} 
+
+.navigation-list {
+    display: flex;
+    justify-content: end;
+}
+.navigation-list-item {
+    list-style-type: none;
+    margin-right: 60px;
+  
+}
+
+.icon {
+    color: #cfcfcf;
+    font-size: 25px;
+}
+
+.icon:hover {
+    color: #ff4f4f;
+}
+
+
+/**============================================**/
+/**Header Section**/
+.header-section {
+    width: 800px; 
+    margin: 150px auto 350px;
+    text-align: center;
+}
+
+.header-intro {
+    font-size: 60px;
+}
+
+.header-img {
+    width: 300px;
+}
+
+.header-occupation {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 60px
+}
+
+.header-occupation-style {
+    color: #ff4f4f;
+}
+
+.header-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-skills-title {
+    font-size: 22px;
+}
+
+.header-skills-list {
+    display: flex;
+}
+
+.header-skills-item {
+    list-style-type: none;
+    margin-right: 50px;
+    background-color: lightgray;
+    padding: 6px;
+}
+
+/**=========================================**/
+/**About Me Section**/
+.about-me-section-title {
+    width: 490px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ff4f4f;
+}
+
+.about-me-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    align-items: center;
+    width: 800px;
+    margin: 30px auto 350px;
+}
+
+.about-me-img {
+    width: 400px;
+    border-radius: 20px;
+}
+.about-me-line-1 {
+    font-size: 25px;
+}
+
+.about-me-line-2 {
+    font-size: 25px;
+}
+
+.about-me {
+    line-height: 30px;
+    width: 450px;
+}
+/**=========================================**/
+/**Projects Section**/
+.project-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 40px;
+    align-items: center;
+    width: 800px;
+    margin: 30px auto 60px;
+}
+
+.project {
+    margin: 0 auto;
+}
+
+.project-section-title {
+    width: 180px;
+    margin: 0 auto 70px;
+    text-align: center;
+    color: #ff4f4f;
+}
+
+.project-img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.project-title {
+    width: 400px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.project-description {
+    width: 400px;
+    line-height: 30px;
+}
+
+.project-description-technology {
+    font-weight: bold;
+}
+
+.project-button-background {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    width: 235px;
+    margin: 0 auto;
+}
+
+.project-button-background:hover {
+    background-color: black;
+    width: 235px;
+    opacity: 0.5;
+}
+
+.project-button {
+    width: 600px;
+    text-decoration: none;
+    color: #ff4f4f;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/**=========================================**/
+/**Resume Header Section**/
+
+.resume-section-title {
+   text-align: center; 
+   margin: 350px auto 70px;
+   width: 340px;
+   color:#ff4f4f;
+}
+
+.resume-header-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width:700px;
+    padding: 30px 10px -20px;
+}
+
+.resume-header {
+text-align: center;    
+}
+
+.resume-name{
+    font-size: 50px;
+}
+
+.resume-occupation {
+    font-size: 30px;
+}
+
+.resume-header-img {
+    width: 250px;
+    border-radius: 50px;
+    margin-left: -90px;
+}
+
+.resume-download-button-background {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    width: 220px;
+    margin: 0 auto;   
+}
+
+.resume-download-button-background:hover {
+    background-color: black;
+    width:220px;
+    opacity: 0.5;
+}
+
+.resume-download-button {
+    text-decoration: none;
+    color: #ff4f4f;
+    font-weight: bold;
+}
+
+/**================================**/
+/**Resume Contact Summary Section**/
+.resume-outline {
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    width: 750px;
+    margin: 0 auto 30px;
+}
+
+.resume-contact-summary-section {
+    width: 700px;
+    margin: 30px auto;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;     
+}
+
+.resume-header-contact-item {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+}
+
+.email:hover{
+    color: #ff4f4f;
+}
+
+.github {
+    text-decoration: none;
+    color: black;
+}
+
+.github:hover{
+    color: #ff4f4f;
+}
+
+.linkedin {
+    text-decoration: none;
+    color: black;
+}
+
+.linkedin:hover {
+    color: #ff4f4f;
+}
+
+.professional-summary {
+    text-align: center;
+}
+
+.professional-summary-description {
+    text-align: left;
+    line-height: 30px;
+}
+
+/**========================================**/
+/**Skills Section**/
+
+.skills-section-title {
+    text-align: left;
+    margin: 30px auto 20px;
+    font-size: 24px;
+    width: 680px;
+    color: black;
+}
+
+.skills-section {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 65px;
+    row-gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.skills-title {
+    font-size: 18px;
+    text-align: center;
+}
+
+.skills-img {
+    width: 270px;
+    
+}
+
+.skills {
+    line-height: 30px;
+}
+
+.program {
+    text-align: center;
+}
+
+/**========================================**/
+/**Experience Section**/
+.experience-section-title {
+    text-align: left;
+    margin: 30px auto 20px;
+    font-size: 24px;
+    width: 700px;
+    color: black;
+}
+
+.experience-section {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 65px;
+    row-gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.experience-img {
+    width: 200px;
+}
+
+.company-name {
+    text-align: left;
+}
+
+.company-role {
+    text-align: left;
+}
+
+.company-longevity {
+    text-align: left;
+}
+
+.company-location {
+    text-align: left;
+}
+
+/**========================================**/
+/**Education Section**/
+.education-section-title {
+    text-align: left;
+    margin: 30px auto 50px;
+    font-size: 24px;
+    width: 700px;
+    color: black;
+}
+
+.education-section {
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 65px;
+    row-gap: 50px;
+    align-items: center;
+    margin: 0 auto 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+.education-img {
+    width: 170px;
+}
+
+.school-name-location {
+    text-align: left;
+}
+
+.degree {
+    text-align: left;
+}
+
+.grad-year {
+    text-align: left;
+}
+
+/**========================================**/
+/**Footer Section**/
+
+.footer-contents {
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-navigation-list {
+    display: flex; 
+    justify-content: center;
+}
